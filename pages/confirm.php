@@ -1,3 +1,13 @@
+<?php
+
+ $dsn = "mysql:host=localhost;dbname=productdb;charset=utf8";
+ $user = "productdb_admin";
+ $password = "admin123";
+ 
+ try{
+     $pdo = new PDO($dsn, $user, $password);
+ }
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
